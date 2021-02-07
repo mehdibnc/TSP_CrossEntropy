@@ -22,5 +22,4 @@ The algorithm converges quickly on small instances, in a few iterations, towards
 
 Note that the default parameters of this implementation include a sample size equal to `5 * c^2` where `c` is the number of cities in the instance. Given the nature of the method, performance is highly sensitive to this parameter. A larger sample comes with better monte carlo approximations and therefore solutions of better quality but also increases the computationnal load. Decreasing the value will make the algorithm faster but will likely decrease solutions quality. With this value, we get good results event for the largest instance tested here.
 
-
-[a link](https://github.com/mehdibnc/TSP_CrossEntropy/figures/tsp_convergence_48_cities_33523.png?)
+![alt text](https://github.com/mehdibnc/TSP_CrossEntropy/blob/master/figures/tsp_convergence_48_cities_33523.png)
